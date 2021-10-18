@@ -1,0 +1,20 @@
+.button, input[type="submit"], button {
+   position: relative;/*added ; */
+   display: inline-block;
+   padding-right: 0;/*changed front to right (asuming the right of the element is the front)*/
+   margin: 0;
+   border: none;
+   text-decoration: none;
+   text-align: center;
+   white-space: nowrap;
+   overflow: visible;
+   background-color: red;/*changed bgcolor which does not exists to background-color*/
+   text-transform: uppercase;/* added ; */
+   color: "#fZb034";/*changed font-color to color, add " surrounding the hex code*/
+   font-size: 18px;
+   font-family: 'FuturaBT-Book';
+   line-height: 20px;/* fixed . to :*/
+   height: 20px;
+   -webkit-transition: color 0.2s ease-in-out;
+   transition: color 0.2s ease-in-out
+}
