@@ -7,7 +7,7 @@ function getHeaderElement() {
    // Get header element by its id.    
    header = $("#myHeader"); //Added # to indicate to get an element by id
    if (header === null
-      && typeof header === "undefined" //Change keyword TypeOf to typeof and compare agains string
+      && typeof header === "undefined" //Change keyword TypeOf to typeof and compare against string
    ) {
       console.log('header element exists!');//Change the last " to '
    }
